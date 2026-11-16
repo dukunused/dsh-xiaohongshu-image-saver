@@ -1,0 +1,15 @@
+# dsh-xhs-saver —— 小红书用户主页图片批量保存
+# 注册一个模型侧工具 xhs_save_images。
+#
+# 安装（本地目录）：
+#   插件页 → Add plugin → 选择本目录
+# 或 CLI：
+#   dsh plugin --profile <profile> add "file:<本目录绝对路径>"
+#
+# 首次调用会启动一个专用 Chrome 窗口让用户扫码登录；
+# 登录态保存在 ~/.dsh/xhs-saver/profile，之后免登。
+
+- insert:
+    - id: xhs-saver
+      name: dsh-xhs-saver
+      config: {}

@@ -1,0 +1,43 @@
+{
+  "name": "dsh-xhs-saver",
+  "version": "0.1.0",
+  "description": "小红书用户主页图片批量保存到本地（原图）：注册 xhs_save_images 工具，自动开 Chrome 扫码登录、翻完全部笔记、按发布日期命名、平铺单目录，可断点续传。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "xiaohongshu",
+    "image",
+    "download"
+  ],
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "scripts",
+    "locale",
+    "docs",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT"
+}

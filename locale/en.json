@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "XHS image saver",
+    "description": "Batch-save every image from a Xiaohongshu (RED) user's profile to a local folder as originals, named by post date. First use opens a Chrome window for QR login.",
+    "detail": "docs/DETAIL.md"
+  }
+}
