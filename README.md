@@ -1,5 +1,11 @@
 # 小红书图片保存（XHS image saver）
 
+[![DSH plugin](https://img.shields.io/badge/DSH%20(DeepSeek%20Harness)-plugin-D94F50)](https://github.com/dukunused/dsh-xiaohongshu-image-saver)
+![version](https://img.shields.io/badge/version-0.1.0-blue)
+![platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey)
+
+**这是一个 [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) 插件**，不是独立软件：装上后 agent 会多一个 `xhs_save_images` 工具。
+
 **小红书专用**：把**小红书（Xiaohongshu / RED）一个用户主页里的全部笔记图片**批量下载到本地目录。只认 `xiaohongshu.com/user/profile/...` 主页链接，不是通用下载器。
 
 ## 应用场景
